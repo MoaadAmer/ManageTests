@@ -1,0 +1,28 @@
+html {
+    font-family: "helvetica neue", helvetica, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 12em;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+form div {
+    margin: 10px;
+}

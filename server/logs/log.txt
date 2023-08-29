@@ -1,0 +1,4 @@
+********************************************************************************
+Date/Time: 21.8.2023
+Exception Info: {"status":500,"statusText":"Internal Server Error","message":"Unexpected token \" in JSON at position 0","error":{"code":"INTERNAL_SERVER_ERROR","message":"Unexpected token \" in JSON at position 0"},"requestInfo":{"hostname":"localhost","path":"/api"}}
+********************************************************************************

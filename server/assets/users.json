@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "fullName": "Gad shor",
+        "email": "gad@telhai.com",
+        "password": "123",
+        "isTeacher": true
+    },
+    {
+        "id": 2,
+        "fullName": "Moaad amer",
+        "email": "moaad@telhai.com",
+        "password": "123",
+        "isTeacher": false
+    },
+    {
+        "id": 3,
+        "fullName": "Yaniv Cohen",
+        "email": "yaniv@telhai.com",
+        "password": "123",
+        "isTeacher": false
+    },
+    {
+        "id": 4,
+        "fullName": "Oren shmai",
+        "email": "oren@telhai.com",
+        "password": "123",
+        "isTeacher": false
+    },
+    {
+        "id": 5,
+        "fullName": "rawnak sabek",
+        "email": "rawnak@telhai.com",
+        "password": "123",
+        "isAdmin": false
+    },
+    {
+        "id": 6,
+        "fullName": "ab",
+        "email": "a@b",
+        "password": "123",
+        "isAdmin": false
+    }
+]

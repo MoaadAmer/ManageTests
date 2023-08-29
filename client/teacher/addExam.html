@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Tests | Add Exam</title>
+    <link rel="stylesheet" href="addExam.css">
+</head>
+
+<body>
+    <h1>Add New Exam</h1>
+    <main>
+        <fieldset>
+            <legend>Exam Details</legend>
+            <form>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                </div>
+                <div>
+                    <label for="subjects"> Please choose a subject: </label>
+                    <select name="subjects" id="subject">
+                        <optgroup label="Other">
+                            <option value="linux" selected>Linux</option>
+                            <option value="sql">SQL</option>
+                        </optgroup>
+                        <optgroup label="Code">
+                            <option value="html">HTML</option>
+                            <option value="javascript">JavaScript</option>
+                            <option value="php">PHP</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div>
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date">
+                </div>
+                <div>
+                    <label for="startTime">Start Time:</label>
+                    <input type="time" id="startTime" name="startTime">
+                </div>
+                <div>
+                    <label for="totalTime">Total Time (hours):</label>
+                    <input type="number" id="totalTime" name="totalTime">
+                </div>
+                <div>
+                    <label for="random">Random:</label>
+                    <input type="checkbox" id="random" name="random">
+                </div>
+                <div>
+                    <label for="grade">Grade:</label>
+                    <input type="number" id="grade" name="grade">
+                </div>
+
+                <div>
+                    <button type="button" id="AddExam">Add</button>
+                </div>
+            </form>
+        </fieldset>
+    </main>
+
+    <script src="addExam.js"></script>
+</body>
+
+</html>
