@@ -1,14 +1,13 @@
 window.addEventListener("load", (event) => {
 
-    let addBtn = document.querySelector('#AddExam');
-
-    addBtn.addEventListener('click', addNewExam);
-
+    document.querySelector('form').addEventListener('submit', addNewExam);
 
 });
 
 
-async function addNewExam() {
+async function addNewExam(event) {
+
+    event.preventDefault();
 
     let name = document.querySelector("#name").value;
     let selectedSubject = document.querySelector("option:checked").text.toLowerCase();
@@ -16,18 +15,20 @@ async function addNewExam() {
     let date = document.querySelector("#date").value;
     let startTime = document.querySelector("#startTime").value;
     let totalTime = document.querySelector("#totalTime").value;
-    let random = document.querySelector("#random").value;
+    let random = document.querySelector("#random").checked;
     let grade = document.querySelector("#grade").value;
 
-    if (name == "" || selectedSubject == "" || date == "" || startTime == ""
-        || totalTime == "" || random == "", grade == "") {
+    if (name == "" || selectedSubject == "" || date == "" || startTime == "" ||
+        totalTime == "" || random == "", grade == "") {
         alert("Please provide all data for the exam");
         return;
     }
     let user = JSON.parse(sessionStorage.getItem("user"));
     let subjectsObj = await getAllsubjects();
 
-    let subjectId = subjectsObj.find(s => s.name.toLowerCase() == selectedSubject).id;
+    let subjectId = subjectsObj.find(s => s.name.toLowerCase() == selectedSubject.toLowerCase()).id;
+
+
 
     let examId = getNextId(await getAllExams());
     var questions;
@@ -40,7 +41,7 @@ async function addNewExam() {
     }
 
 
-    let data = {
+    let body = {
         "teacherId": user.id,
         "subjectId": subjectId,
         "id": examId,
@@ -50,30 +51,28 @@ async function addNewExam() {
         "totalTime": totalTime,
         "isRandom": random,
         "grade": grade,
-        "questions": [
-            {
-                "question": questions
-            }
-        ]
+        "questions": questions
     };
 
-    let res = await addExam(data);
+
+    let res = await addExam(body);
+
     if (res.status == 201) {
-        alert("Exam have been created successfully");
+        alert("Exam have been created successfully redirecting...");  // wait 3 seconds
+        window.location.replace("http://localhost:5501/client/teacher/teacherHomePage.html");
     }
     else {
         alert("Couldnt create exam");
     }
-
-    window.location.href = "teacherHomePage.html";
 }
+
 
 async function getOtherQuestions(category) {
     try {
 
         const apiKey = "2LnRa9UQy80SwkgPadIfU9myPWLE4wS3BSeifX5H";
         const limit = 10;
-        const difficulty = "Easy"
+        const difficulty = "Easy";
 
         const response = await fetch(`https://quizapi.io/api/v1/questions?apiKey=${apiKey}&category=${category}&difficulty=${difficulty}&limit=${limit}`, {
             method: "GET",
@@ -93,7 +92,7 @@ async function getCodeQuestions(tag) {
 
         const apiKey = "2LnRa9UQy80SwkgPadIfU9myPWLE4wS3BSeifX5H";
         const limit = 10;
-        const difficulty = "Easy"
+        const difficulty = "Easy";
         const category = "Code";
 
         const response = await fetch(`https://quizapi.io/api/v1/questions?apiKey=${apiKey}&category=${category}&difficulty=${difficulty}&limit=${limit}&tags=${tag}`, {
