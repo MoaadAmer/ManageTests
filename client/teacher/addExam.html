@@ -10,54 +10,54 @@
 
 <body>
     <h1>Add New Exam</h1>
-    <main>
-        <fieldset>
-            <legend>Exam Details</legend>
-            <form>
-                <div>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name">
-                </div>
-                <div>
-                    <label for="subject"> Please choose a subject: </label>
-                    <select name="subject" id="subject">
-                        <optgroup label="Other">
-                            <option value="linux" selected>Linux</option>
-                            <option value="sql">SQL</option>
-                        </optgroup>
-                        <optgroup label="Code">
-                            <option value="html">HTML</option>
-                            <option value="javascript">JavaScript</option>
-                            <option value="php">PHP</option>
-                        </optgroup>
-                    </select>
-                </div>
-                <div>
-                    <label for="date">Date:</label>
-                    <input type="date" id="date" name="date">
-                </div>
-                <div>
-                    <label for="startTime">Start Time:</label>
-                    <input type="time" id="startTime" name="startTime">
-                </div>
-                <div>
-                    <label for="totalTime">Total Time (hours):</label>
-                    <input type="number" id="totalTime" name="totalTime">
-                </div>
-                <div>
-                    <label for="random">Random:</label>
-                    <input type="checkbox" id="random" name="random">
-                </div>
-                <div>
-                    <label for="grade">Grade:</label>
-                    <input type="number" id="grade" name="grade">
-                </div>
+    <p>Please fill out this form with the required information</p>
 
-                <input type="submit" value="Add" id="AddExam">
+    <fieldset>
+        <h2>Exam Deatils</h2>
+        <form>
 
-            </form>
-        </fieldset>
-    </main>
+            <label for="name">Name:
+                <input type="text" id="name" name="name"></label>
+
+
+            <label for="subject"> Please choose a subject:
+                <select name="subject" id="subject">
+                    <optgroup label="Other">
+                        <option value="linux" selected>Linux</option>
+                        <option value="sql">SQL</option>
+                    </optgroup>
+                    <optgroup label="Code">
+                        <option value="html">HTML</option>
+                        <option value="javascript">JavaScript</option>
+                        <option value="php">PHP</option>
+                    </optgroup>
+                </select>
+            </label>
+
+            <label for="date">Date:
+                <input type="date" id="date" name="date"></label>
+
+            <label for="startTime">Start Time:
+                <input type="time" id="startTime" name="startTime">
+            </label>
+
+            <label for="totalTime">Total Time (hours):
+                <input type="number" id="totalTime" name="totalTime">
+            </label>
+
+            <label for="grade">Grade:
+                <input type="number" id="grade" name="grade">
+            </label>
+
+            <label for="random">Random:
+                <input type="checkbox" id="random" class="inline" name="random">
+            </label>
+
+            <input type="submit" value="Add" id="AddExam">
+
+        </form>
+    </fieldset>
+
 
     <script src="addExam.js"></script>
 </body>
