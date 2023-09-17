@@ -17,11 +17,11 @@
         <form>
 
             <label for="name">Name:
-                <input type="text" id="name" name="name"></label>
+                <input type="text" id="name" name="name" required></label>
 
 
             <label for="subject"> Please choose a subject:
-                <select name="subject" id="subject">
+                <select name="subject" id="subject" required>
                     <optgroup label="Other">
                         <option value="linux" selected>Linux</option>
                         <option value="sql">SQL</option>
@@ -35,18 +35,18 @@
             </label>
 
             <label for="date">Date:
-                <input type="date" id="date" name="date"></label>
+                <input type="date" id="date" name="date" required></label>
 
             <label for="startTime">Start Time:
-                <input type="time" id="startTime" name="startTime">
+                <input type="time" id="startTime" name="startTime" required>
             </label>
 
             <label for="totalTime">Total Time (hours):
-                <input type="number" id="totalTime" name="totalTime">
+                <input type="number" id="totalTime" name="totalTime" required min="1" max="4">
             </label>
 
             <label for="grade">Grade:
-                <input type="number" id="grade" name="grade">
+                <input type="number" id="grade" name="grade" required min="10" max="100">
             </label>
 
             <label for="random">Random:

@@ -23,6 +23,10 @@ async function addNewExam(event) {
         alert("Please provide all data for the exam");
         return;
     }
+    if (!IsFutureDate(date)) {
+        alert("The Date must be Bigger or Equal to today date");
+        return;
+    }
     let user = JSON.parse(sessionStorage.getItem("user"));
     let subjectsObj = await getAllsubjects();
 
@@ -64,6 +68,15 @@ async function addNewExam(event) {
     else {
         alert("Couldnt create exam");
     }
+}
+
+function IsFutureDate(date) {
+    let ToDate = new Date();
+
+    if (new Date(date).getTime() <= ToDate.getTime()) {
+        return false;
+    }
+    return true;
 }
 
 
@@ -157,6 +170,9 @@ async function getAllsubjects() {
 }
 
 function getNextId(obj) {
+    if (obj.length == 0) {
+        return 1;
+    }
     return (Math.max.apply(Math, obj.map(function (o) {
         return o.id;
     })) + 1);

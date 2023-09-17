@@ -10,38 +10,39 @@ window.addEventListener("load", async (event) => {
         window.location.href = "addExam.html";
     });
 
-    let examsTableBody = document.querySelector("#examsTable tbody");
     let exams = await getAllExams();
-
     exams = exams.filter(exam => exam.teacherId == user.id);
-
-    // exams.forEach(exam => {
-    //     examsTableBody.appendChild(`<tr>
-    //     <th scope="row">${exam.id}</th>
-    //     <td>${exam.name}}</td>
-    //     <td>${exam.date}</td>
-    //     <td>${exam.startTime}</td>
-    //     <td>${exam.totalTime}</td>
-    //     <td>${exam.isRandom}</td>
-    //     <td>${exam.grade}</td>
-    // </tr>`)
-    // });
-
-    // for (let i = 0; i < exams.length; i++) {
-    //     const tr = examsTableBody.insertRow();
-    //     for (let j = 0; j < exams[0].length; j++) {
-    //         if (j == 0) {
-
-    //             let th = document.createElement('th');
-    //             th.innerHTML = "Second";
-    //         }
-    //     }
-
-    //     examsTableBody.appendChild(tr);
-    // }
-
+    renderDataInTheTable(exams);
 
 });
+
+function renderDataInTheTable(data) {
+
+    const tbodyRef = document.getElementById('examsTable').getElementsByTagName('tbody')[0];
+    columns = ["id", "name", "date", "startTime", "totalTime", "isRandom", "grade"];
+    data.forEach(rowData => {
+
+        let newRow = document.createElement("tr");
+
+        columns.forEach((column) => {
+            let cell;
+            if (column == "id") {
+                cell = document.createElement("th");
+                cell.setAttribute("scope", "row");
+
+            }
+            else {
+                cell = document.createElement("td");
+            }
+            cell.innerText = rowData[column];
+            newRow.appendChild(cell);
+
+        });
+
+        tbodyRef.appendChild(newRow);
+
+    });
+}
 
 function showWelcomeMessage(user) {
     let h1 = document.querySelector("h1");

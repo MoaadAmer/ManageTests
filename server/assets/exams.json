@@ -1,3 +1,671 @@
 [
-
+    {
+        "teacherId": 1,
+        "subjectId": 2,
+        "id": 1,
+        "name": "html 2023",
+        "date": "2023-09-05",
+        "startTime": "00:37",
+        "totalTime": "2",
+        "isRandom": false,
+        "grade": "100",
+        "questions": [
+            {
+                "id": 443,
+                "question": "What is the HTML Tag for the largest heading",
+                "description": null,
+                "answers": {
+                    "answer_a": "<h6>",
+                    "answer_b": "<head>",
+                    "answer_c": "<h1>",
+                    "answer_d": "<heading>",
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "false",
+                    "answer_b_correct": "false",
+                    "answer_c_correct": "true",
+                    "answer_d_correct": "false",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": "answer_a",
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "HTML"
+                    }
+                ],
+                "category": "Code",
+                "difficulty": "Easy"
+            },
+            {
+                "id": 468,
+                "question": "All elements are identified by their __________ and are marked up using either start tags and end tags or self-closing tags",
+                "description": null,
+                "answers": {
+                    "answer_a": "Attribute Names",
+                    "answer_b": "Tag Names",
+                    "answer_c": "Class Names",
+                    "answer_d": "None of the mentioned",
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "false",
+                    "answer_b_correct": "true",
+                    "answer_c_correct": "false",
+                    "answer_d_correct": "false",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": "answer_a",
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "HTML"
+                    }
+                ],
+                "category": "Code",
+                "difficulty": "Easy"
+            },
+            {
+                "id": 533,
+                "question": "In HTML document the tags",
+                "description": null,
+                "answers": {
+                    "answer_a": "Should be written in upper case",
+                    "answer_b": "can be written in both uppercase or lowercase",
+                    "answer_c": "should be written in propercase",
+                    "answer_d": "should be written in lower case",
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "false",
+                    "answer_b_correct": "true",
+                    "answer_c_correct": "false",
+                    "answer_d_correct": "false",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": "answer_a",
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "HTML"
+                    }
+                ],
+                "category": "Code",
+                "difficulty": "Easy"
+            },
+            {
+                "id": 508,
+                "question": "A homepage is __________",
+                "description": null,
+                "answers": {
+                    "answer_a": "an index of encyclopedia articles",
+                    "answer_b": "the first page of a website",
+                    "answer_c": "required for access to the Internet",
+                    "answer_d": "where all Internet data is stored",
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "false",
+                    "answer_b_correct": "true",
+                    "answer_c_correct": "false",
+                    "answer_d_correct": "false",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": "answer_a",
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "HTML"
+                    }
+                ],
+                "category": "Code",
+                "difficulty": "Easy"
+            },
+            {
+                "id": 497,
+                "question": "Which of the following attribute is used to group elements?",
+                "description": null,
+                "answers": {
+                    "answer_a": "item",
+                    "answer_b": "itemgroup",
+                    "answer_c": "itemcheck",
+                    "answer_d": "itemprop",
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "true",
+                    "answer_b_correct": "false",
+                    "answer_c_correct": "false",
+                    "answer_d_correct": "false",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": "answer_a",
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "HTML"
+                    }
+                ],
+                "category": "Code",
+                "difficulty": "Easy"
+            },
+            {
+                "id": 513,
+                "question": "Outlook Express is a _________",
+                "description": null,
+                "answers": {
+                    "answer_a": "E-Mail Client",
+                    "answer_b": "Browser",
+                    "answer_c": "SearchEngine",
+                    "answer_d": "None of the above",
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "true",
+                    "answer_b_correct": "false",
+                    "answer_c_correct": "false",
+                    "answer_d_correct": "false",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": "answer_a",
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "HTML"
+                    }
+                ],
+                "category": "Code",
+                "difficulty": "Easy"
+            },
+            {
+                "id": 476,
+                "question": "What should be the first tag in any HTML Document?",
+                "description": null,
+                "answers": {
+                    "answer_a": "<html>",
+                    "answer_b": "<!doctype html>",
+                    "answer_c": "<title>",
+                    "answer_d": "<head>",
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "false",
+                    "answer_b_correct": "true",
+                    "answer_c_correct": "false",
+                    "answer_d_correct": "false",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": "answer_a",
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "HTML"
+                    }
+                ],
+                "category": "Code",
+                "difficulty": "Easy"
+            },
+            {
+                "id": 492,
+                "question": "Which of the following tags represents a section of the document intended for navigation in HTML5?",
+                "description": null,
+                "answers": {
+                    "answer_a": "footer",
+                    "answer_b": "dialog",
+                    "answer_c": "section",
+                    "answer_d": "nav",
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "false",
+                    "answer_b_correct": "false",
+                    "answer_c_correct": "false",
+                    "answer_d_correct": "true",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": "answer_a",
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "HTML"
+                    }
+                ],
+                "category": "Code",
+                "difficulty": "Easy"
+            },
+            {
+                "id": 537,
+                "question": "Which tag creates a check box for a form in HTML?",
+                "description": null,
+                "answers": {
+                    "answer_a": "<checkbox>",
+                    "answer_b": "<input checkbox>",
+                    "answer_c": "<input=checkbox>",
+                    "answer_d": "<input type=\"checkbox\">",
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "false",
+                    "answer_b_correct": "false",
+                    "answer_c_correct": "false",
+                    "answer_d_correct": "true",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": "answer_a",
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "HTML"
+                    }
+                ],
+                "category": "Code",
+                "difficulty": "Easy"
+            },
+            {
+                "id": 491,
+                "question": "Which of the following is true about HTML 5?",
+                "description": null,
+                "answers": {
+                    "answer_a": "HTML5 is the next major revision of the HTML standard superseding HTML 4.01, XHTML 1.0, and XHTML 1.1.",
+                    "answer_b": "HTML5 is a cooperation between the World Wide Web Consortium (W3C) and the Web Hypertext Application Technology Working Group (WHATWG).",
+                    "answer_c": "HTML5 is a standard for structuring and presenting content on the World Wide Web",
+                    "answer_d": "All of These",
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "false",
+                    "answer_b_correct": "false",
+                    "answer_c_correct": "false",
+                    "answer_d_correct": "true",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": "answer_a",
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "HTML"
+                    }
+                ],
+                "category": "Code",
+                "difficulty": "Easy"
+            }
+        ]
+    },
+    {
+        "teacherId": 1,
+        "subjectId": 1,
+        "id": 2,
+        "name": "linux 2023",
+        "date": "2023-09-27",
+        "startTime": "00:40",
+        "totalTime": "2",
+        "isRandom": true,
+        "grade": "100",
+        "questions": [
+            {
+                "id": 745,
+                "question": "How to show the metrics for a given node in Kubernetes?",
+                "description": null,
+                "answers": {
+                    "answer_a": "kubectl ps node my-node",
+                    "answer_b": "kubectl resources node my-node",
+                    "answer_c": "kubectl top node my-node",
+                    "answer_d": "kubectl uptime node my-node",
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "false",
+                    "answer_b_correct": "false",
+                    "answer_c_correct": "true",
+                    "answer_d_correct": "false",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": "answer_a",
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "Kubernetes"
+                    }
+                ],
+                "category": "Linux",
+                "difficulty": "Easy"
+            },
+            {
+                "id": 21,
+                "question": "Which of the following is a text editor that can be used in command mode to edit files on a Linux system?",
+                "description": null,
+                "answers": {
+                    "answer_a": "vi or vim",
+                    "answer_b": "lsof",
+                    "answer_c": "open",
+                    "answer_d": "edit",
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "true",
+                    "answer_b_correct": "false",
+                    "answer_c_correct": "false",
+                    "answer_d_correct": "false",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": "answer_a",
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "Linux"
+                    }
+                ],
+                "category": "Linux",
+                "difficulty": "Easy"
+            },
+            {
+                "id": 723,
+                "question": "Which command is used to create resources in Kubernetes?",
+                "description": null,
+                "answers": {
+                    "answer_a": "kubectl create -f ./my-manifest.yaml",
+                    "answer_b": "kubectl deploy -f ./my-manifest.yaml",
+                    "answer_c": "kubectl apply -f ./my-manifest.yaml",
+                    "answer_d": "kubectl fuse -f ./my-manifest.yaml",
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "false",
+                    "answer_b_correct": "false",
+                    "answer_c_correct": "true",
+                    "answer_d_correct": "false",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": "answer_a",
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "Kubernetes"
+                    }
+                ],
+                "category": "Linux",
+                "difficulty": "Easy"
+            },
+            {
+                "id": 719,
+                "question": "The kube-apiserver on Kubernetes master is designed to scale:",
+                "description": null,
+                "answers": {
+                    "answer_a": "Vertically",
+                    "answer_b": "Horizontally",
+                    "answer_c": "kube-apiserver is not used for scaling",
+                    "answer_d": null,
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "false",
+                    "answer_b_correct": "true",
+                    "answer_c_correct": "false",
+                    "answer_d_correct": "false",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": "answer_a",
+                "explanation": "The Kubernetes API server validates and configures data for the api objects which include pods, services, replicationcontrollers, and others. The API Server services REST operations and provides the frontend to the cluster’s shared state through which all other components interact.",
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "Kubernetes"
+                    }
+                ],
+                "category": "Linux",
+                "difficulty": "Easy"
+            },
+            {
+                "id": 649,
+                "question": "What is Solaris?",
+                "description": null,
+                "answers": {
+                    "answer_a": "HP’s UNIX",
+                    "answer_b": "IBM’s UNIX",
+                    "answer_c": "Sun microsystems UNIX",
+                    "answer_d": "Microsoft’s UNIX",
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "false",
+                    "answer_b_correct": "false",
+                    "answer_c_correct": "true",
+                    "answer_d_correct": "false",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": "answer_a",
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "BASH"
+                    }
+                ],
+                "category": "Linux",
+                "difficulty": "Easy"
+            },
+            {
+                "id": 685,
+                "question": "What is UMASK?",
+                "description": null,
+                "answers": {
+                    "answer_a": "UMASK is a Unix environment variable, which automatically sets file permissions created files.",
+                    "answer_b": "UMASK is a Unix environment variable, which automatically sets the file visibility.",
+                    "answer_c": "UMASK is a Unix environment variable, which not really used anymore and is considered legacy.",
+                    "answer_d": "UMASK is a Unix environment variable, which is replaced by the chmod command now however it's still largely used.",
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "true",
+                    "answer_b_correct": "false",
+                    "answer_c_correct": "false",
+                    "answer_d_correct": "false",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": null,
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "BASH"
+                    },
+                    {
+                        "name": "Linux"
+                    }
+                ],
+                "category": "Linux",
+                "difficulty": "Easy"
+            },
+            {
+                "id": 737,
+                "question": "How to delete a pod in Kubernetes using the type and name specified in pod.json?",
+                "description": null,
+                "answers": {
+                    "answer_a": "kubectl delete ./pod.json",
+                    "answer_b": "kubectl delete -f ./pod.json",
+                    "answer_c": "kubectl remove -f ./pod.json",
+                    "answer_d": "kubectl remove ./pod.json",
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "false",
+                    "answer_b_correct": "true",
+                    "answer_c_correct": "false",
+                    "answer_d_correct": "false",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": "answer_a",
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "Kubernetes"
+                    }
+                ],
+                "category": "Linux",
+                "difficulty": "Easy"
+            },
+            {
+                "id": 646,
+                "question": "How do we create command aliases in a shell?",
+                "description": null,
+                "answers": {
+                    "answer_a": "alias Aliasname=\"Command whose alias is to be created\"",
+                    "answer_b": "set alias Aliasname=\"Command whose alias is to be created\"",
+                    "answer_c": "We can't create aliases directly in shell",
+                    "answer_d": "configure Aliasname=\"Command whose alias is to be created\"",
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "true",
+                    "answer_b_correct": "false",
+                    "answer_c_correct": "false",
+                    "answer_d_correct": "false",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": "answer_a",
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "BASH"
+                    }
+                ],
+                "category": "Linux",
+                "difficulty": "Easy"
+            },
+            {
+                "id": 1081,
+                "question": "Where are the online repositories configured on a Debian/Ubuntu Machine",
+                "description": null,
+                "answers": {
+                    "answer_a": "/etc/apt/sources.list",
+                    "answer_b": "/etc/apt/yum.repos",
+                    "answer_c": "/etc/fstab",
+                    "answer_d": "/etc/apt/repos",
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "true",
+                    "answer_b_correct": "false",
+                    "answer_c_correct": "false",
+                    "answer_d_correct": "false",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": null,
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "Linux"
+                    }
+                ],
+                "category": "Linux",
+                "difficulty": "Easy"
+            },
+            {
+                "id": 823,
+                "question": "BASH stands for:",
+                "description": null,
+                "answers": {
+                    "answer_a": "Bourne Again SHell",
+                    "answer_b": "BAsic SHell",
+                    "answer_c": "Basic Async SHell",
+                    "answer_d": null,
+                    "answer_e": null,
+                    "answer_f": null
+                },
+                "multiple_correct_answers": "false",
+                "correct_answers": {
+                    "answer_a_correct": "true",
+                    "answer_b_correct": "false",
+                    "answer_c_correct": "false",
+                    "answer_d_correct": "false",
+                    "answer_e_correct": "false",
+                    "answer_f_correct": "false"
+                },
+                "correct_answer": null,
+                "explanation": null,
+                "tip": null,
+                "tags": [
+                    {
+                        "name": "BASH"
+                    }
+                ],
+                "category": "Linux",
+                "difficulty": "Easy"
+            }
+        ]
+    }
 ]
