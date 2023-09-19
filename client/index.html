@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -9,43 +9,45 @@
 </head>
 
 <body>
-    <div class="form-container" id="login-form">
-        <h2>Login</h2>
-        <form id="login-form">
-            <p>
+    <div class="flex-container">
+        <div class="flex-item" id="login-form">
+            <h2>Login</h2>
+            <form id="login-form">
+                <p>
 
-                <label for="login-email"></label>
-                <input type="email" placeholder="Email" id="login-email" name="login-email" required>
-            </p>
-            <p>
-                <label for="login-password"></label>
-                <input type="password" placeholder="Password" id="login-password" name="login-password" required>
-            </p>
-            <p>
-                <button type="button" id="loginBtn">Login</button>
-            </p>
-        </form>
-    </div>
-    <div class="form-container" id="signup-form">
-        <h2>Signup</h2>
-        <form id="signup-form">
-            <p>
-                <label for="signup-name"></label>
-                <input type="text" placeholder="Full Name" id="signup-name" name="signup-name" required>
-            </p>
-            <p>
+                    <label for="login-email"></label>
+                    <input type="email" placeholder="Email" id="login-email" name="login-email" required>
+                </p>
+                <p>
+                    <label for="login-password"></label>
+                    <input type="password" placeholder="Password" id="login-password" name="login-password" required>
+                </p>
+                <p>
+                    <button type="button" id="loginBtn">Login</button>
+                </p>
+            </form>
+        </div>
+        <div class="flex-item" id="signup-form">
+            <h2>Signup</h2>
+            <form id="signup-form">
+                <p>
+                    <label for="signup-name"></label>
+                    <input type="text" placeholder="Full Name" id="signup-name" name="signup-name" required>
+                </p>
+                <p>
 
-                <label for="signup-email"></label>
-                <input type="email" placeholder="Email" id="signup-email" name="signup-email" required>
-            </p>
-            <p>
-                <label for="signup-password"></label>
-                <input type="password" placeholder="Password" id="signup-password" name="signup-password" required>
-            </p>
-            <p>
-                <button type="button" id="signupBtn">Signup</button>
-            </p>
-        </form>
+                    <label for="signup-email"></label>
+                    <input type="email" placeholder="Email" id="signup-email" name="signup-email" required>
+                </p>
+                <p>
+                    <label for="signup-password"></label>
+                    <input type="password" placeholder="Password" id="signup-password" name="signup-password" required>
+                </p>
+                <p>
+                    <button type="button" id="signupBtn">Signup</button>
+                </p>
+            </form>
+        </div>
     </div>
     <script src="index.js"></script>
 </body>
