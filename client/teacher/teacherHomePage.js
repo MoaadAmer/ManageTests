@@ -42,6 +42,7 @@ function renderDataInTheTable(data) {
         tbodyRef.appendChild(newRow);
 
     });
+    document.getElementById('totalExamsValue').innerText = data.length;
 }
 
 function showWelcomeMessage(user) {
