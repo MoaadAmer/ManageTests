@@ -63,7 +63,7 @@ async function addNewExam(event) {
 
     if (res.status == 201) {
         alert("Exam have been created successfully redirecting...");  // wait 3 seconds
-        window.location.replace("http://localhost:5501/client/teacher/teacherHomePage.html");
+        window.location.href = "teacherHomePage.html";
     }
     else {
         alert("Couldnt create exam");
