@@ -6,24 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manage Tests | Student Home Page</title>
     <link rel="stylesheet" href="studentHomePage.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
     <h1>HomePage</h1>
 
     <main>
-        <table>
-            <thead>
-                <caption>Exams</caption>
-            </thead>
-            <tbody>
-
-            </tbody>
-            <tfoot>
-         
-            </tfoot>
-            <th></th>
-        </table>
+        <section>
+            <table id="examsTable">
+                <caption>
+                    Your Exams
+                </caption>
+                <thead>
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Start Time</th>
+                        <th scope="col">Total Time</th>
+                        <th scope="col">Is Random</th>
+                        <th scope="col">Grade</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <th scope="row" colspan="2">Total Exams</th>
+                        <td colspan="2" id="totalExamsValue">0</td>
+                    </tr>
+                </tfoot>
+            </table>
+        </section>
     </main>
 
     <script src="studentHomePage.js"></script>
